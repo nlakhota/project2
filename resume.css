@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1, h2, h4, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove bullet points */
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+section {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Resume-specific styles */
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #555;
+  margin-top: 10px;
+}
+
+p em {
+  font-style: italic;
+}
+
+ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* Add spacing between sections */
+section + section {
+  margin-top: 30px;
+}
